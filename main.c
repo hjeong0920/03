@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 int main(void) {
-    int a, b;
-    float result;
+    int input_int;
+    float input_float;
 
-    printf("enter the numerator :");
-    scanf("%d", &a);
+    printf("enter an integer :");
+    scanf("%d", &input_int);
 
-    printf("enter the denominator :");
-    scanf("%d", &b);
+    printf("enter a float :");
+    scanf("%f", &input_float);
     
-    result = (float)a / b;
-    printf("the result of division if %f\n", result);
+    printf("integer : %d, float : %f\n", input_int, input_float);
 
     return 0;
 }
